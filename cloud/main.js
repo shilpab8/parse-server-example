@@ -1,6 +1,6 @@
 
 // Create the Cloud Function
-Parse.Cloud.define("inviteWithTwilio", function(request, response) {
+Parse.Cloud.define("verifyme", function(request, response) {
   var twilio = require('twilio')('AC1c5d074299795e11907706bc8c34325d', '4293afaf04268d42c02aabaf2237b67f');
   // Use the Twilio Cloud Module to send an SMS
   twilio.sendSMS({
