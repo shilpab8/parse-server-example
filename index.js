@@ -24,11 +24,6 @@ var api = new ParseServer({
 		android: {
 			senderId: 'ottor-140510', // The Sender ID of GCM
 			apiKey: 'AIzaSyAj9LyfZ5gmfsokRQx5RnpXL1HDMQ2osO0' // The Server API Key of GCM
-		},
-		ios: {
-			pdx: 'certs/mycert.p12', // the path and filename to the .p12 file you exported earlier. 
-			bundleId: '', // The bundle identifier associated with your app
-			production: true
 		}
 	}
 });
